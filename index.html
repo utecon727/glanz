@@ -39,8 +39,17 @@
     ></script>
     <script defer src="js/script.js"></script>
 
-    <title>GLANZ INTRO</title>
+
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+
   </head>
+
+
   <body>
     <header class="header">
       <!-- <a href="#">
@@ -49,14 +58,14 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#how">コンセプト</a></li>
-          <li><a class="main-nav-link" href="#meals">支援内容</a></li>
+          <li><a class="main-nav-link" href="#how">TOP 会社概要</a></li>
+          <li><a class="main-nav-link" href="#meals">事業内容</a></li>
           <!-- <li>
             <a class="main-nav-link" href="#detail">詳細の流れ</a>
           </li> -->
           <!-- <li><a class="main-nav-link" href="#pricing">Pricing</a></li> -->
           <li>
-            <a class="main-nav-link nav-cta" href="#cta"> お問い合わせ</a>
+            <a class="main-nav-link nav-cta" href="#cta">お問い合わせ</a>
           </li>
         </ul>
       </nav>
@@ -67,194 +76,105 @@
       </button>
     </header>
 
+
+
     <main>
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
-            <h1 class="heading-primary">GLANZコンサルティング</h1>
+            <!-- <h1 class="heading-primary">有限会社グランツ</h1> -->
             <p class="hero-description">
-              弊社は、歯科医院で長年歯科衛生士を経験、マネジメントしてきたメンバーで構成された経営支援コンサルティング会社です。 
-              </br>中長期戦略よりは短期的に成果を出したいすでに開業されている歯科医院の先生をサポート致します。
+              弊社は、経営アドバイスを無料でご提供する経営支援コンサルティング会社です。 
+              </br>日本の中小企業のお悩みに応え、ビジネスをサポート致します。
             </p>
             <!-- <a href="#cta" class="btn btn--full margin-right-sm"
               >お問い合わせ</a>
             <a href="#how" class="btn btn--outline">もっと知りたい &darr;</a> -->
-         
           </div>
-          <!-- <div class="hero-img-box">
-            <picture>
-              <source srcset="img/hero.webp" type="image/webp" />
-              <source srcset="img/hero-min.png" type="image/png" />
-
-              <img
-                src="img/hero-min.png"
-                class="hero-img"
-                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-              />
-            </picture>
-          </div>
-        </div> -->
+       
+  
       </section>
 
 
       <section class="section-how" id="how">
         <div class="container">
-          <span class="subheading">コンセプト</span>
+          <!-- <span class="subheading">コンセプト</span> -->
           <h2 class="heading-secondary">
-            ～健全な歯科医院経営のために～
+            会社概要<br>
+            <strong>Company file</strong>
           </h2>
         </div>
 
-        <div class="container grid grid--2-cols grid--center-v">
+        <div class="container grid">
           <!-- STEP 01 -->
           <div class="step-text-box">
-            <p class="step-number">01</p>
-            <h3 class="heading-tertiary">新規の患者様獲得のための全体的な取り組みなどの立案を行います。</h3>
+       
       
               <ol class="step-description">
-                <li>
-                  具体的な患者様の来院訴求営業戦略の見直や、HP による集客方法の見直し改善を行います。
-                  開業されて3 年～５年以内の増患対応に伴うスタッフの採用・リスク管理・運営面のサポート業務のご提案を致します。
-                </li>
-                 <li>
-                  地域医療、医療ツーリズムなどの患者様獲得の為の戦略を立案、実行、営業活動、各機関との提携業務代行などの実務の推進、医院の拡大に貢献致します。
-                </li>
+                <table class = "customTbl" style="width: 100%;">
+                  <tbody>
+                    <tr>
+                      <th>会社名</th>
+                      <td>有限会社グランツ</td>
+                    </tr>
+                    <tr>
+                      <th>設立年月日</th>
+                      <td>2015年10月05日</td>
+                    </tr>
+                    <tr>
+                      <th>所在地</th>
+                      <td>神奈川県横浜市緑区上山2丁目1番6号</td>
+                    </tr>
+                    <tr>
+                      <th>代表取締役</th>
+                      <td>田口 孝一</td>
+                    </tr>
+                    <tr>
+                      <th>電話番号</th>
+                      <td>050-3627-5163</td>
+                    </tr>
+                    <tr>
+                      <th>受付時間</th>
+                      <td>平日10:00 ~ 17:00</td>
+                    </tr>
+                    <tr>
+                      <th>事業内容</th>
+                      <td>中古品再生事業・グリーンエネルギー事業</td>
+                    </tr>
+                  </tbody>
+                </table>
               </ol>
               
           </div>
 
-          <div class="step-img-box">
-            <img
-              src="img/clinic1-bed.jpg"
-              class="step-img"
-              alt="clinic1-bed"
-            />
-          </div>
+        
 
-          <!-- STEP 02 -->
-          <div class="step-img-box">
-            <img
-              src="img/clinic3-staff.jpg"
-              class="step-img"
-              alt="clinic2-tool"
-            />
-          </div>
-          <div class="step-text-box">
-            <p class="step-number">02</p>
-            <h3 class="heading-tertiary">DX(デジタル化)の導入により、人手不足・無駄を可視化し、効率化を行います。</h3>
-         
-            <ol class="step-description">
-              <li>
-                
-                近年、歯科衛生士の採用が難しく、人手不足になりがちなことを課題視しています。
-               そんな中で、歯科材料の在庫管理は歯科衛生士にとって、最もストレスが大きく、時間も使う仕事の一つになっています。</br>
-                衛生士が抱えている在庫管理等に費やしていた時間を短縮し、患者様の診察時間に充てさせることで、
-                より良い労働環境の構築やスタッフのスキルアップとモチベーション向上につながります。
-              </li>
-               <li>
-                LINEやHPでの予約システムは、24時間自動予約の受付が可能です。電話での手間を省き、スタッフの業務負荷を軽減します。</br>
-                また、診療時間外でも予約が可能なため、患者様の利便性が向上します。
-                
-              </li>
-            </ol>
-
-          </div>
-
-          <!-- STEP 03 -->
-          <div class="step-text-box">
-            <p class="step-number">03</p>
-            <h3 class="heading-tertiary">プライベートブランド商品開発・医院移転のロケーション探し代行致します。</h3>
-            <ol class="step-description">
-              <li>
-                デンタルケアグッズの開発・メーカー選定・価格交渉などを代行致します。
-              
-      
-              </li>
-               <li>
-                新たな医院の開業の為の支援、独自の不動産情報ネットワークを駆使して、より良いロケーションの為のテナント探しなどをサポートします。
-                また、テナント探しから審査必要書類の取りまとめまでの業務を代行致します。
-              </li>
-            </ol>
-
-          </div>
-          <div class="step-img-box">
-            <img
-              src="img/clinic2-tool.jpeg"
-              class="step-img"
-              alt="clinic3-machine"
-            />
-          </div>
-        </div>
+       
       </section>
 
-      <section class="section-meals" id="meals">
-        <div class="container center-text">
-          <span class="subheading">支援内容</span>
-          <h2 class="hero-description">
-            現状分析から、改善の実現・後続フォローアップまで、幅広く支援させていただきます。 以下はその一例になります。           
-          </h2>
-        </div>
-
-        <div class="container grid grid--3-cols margin-bottom-md">
-          <div class="meal">
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag--vegetarian">ステップ１</span>
-              </div>
-              <p class="meal-title">現状分析</p>
-              <ol class="meal-attribute">
-                <li>まずはクライアントである貴医院との対話を通じて具体的なニーズ、課題、目標を理解します。</li>
-                <li>貴医院の現在の経営状態、業績、運用プロセス、患者満足度などを詳細に分析します。</li>
-                <li>理想と現状のギャップを明確にし、改善すべきポイントを特定します。</li>
-              </ol>
-            </div>
-          </div>
-
-          <div class="meal">
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag--vegetarian">ステップ２</span>
-              </div>
-              <p class="meal-title">戦略計画と実装</p>
-              <ol class="meal-attribute">
-                <li>貴医院の特定の状況とニーズに基づいて、個別化された戦略を開発します。</li>
-                <li>戦略を実際に実施するための明確なロードマップを作成します。時間枠、責任者、必要なリソースなどを明記します。</li>
-                <li>戦略の実装過程での支援と監視を行い、必要に応じて調整を提案します。</li>
-              </ol>
-            </div>
-          </div>
-
-          <div class="meal">
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag--vegetarian">ステップ３</span>
-              </div>
-              <p class="meal-title">継続的な改善</p>
-              <ol class="meal-attribute">
-                <li>実施した戦略の効果を定期的に監視し、パフォーマンスメトリクスを分析します。</li>
-                <li>成果と課題に対するフィードバックを提供し、必要に応じて戦略を調整します。</li>
-                <li>長期的な成功のために、継続的な改善と革新のプロセスを標準化し、マニュアル作成を行います。</li>
-              </ol>
-            </div>
-          </div>
-<!-- 
-        <div class="container all-recipes">
-          <a href="#" class="link">See all recipes &rarr;</a>
-        </div> -->
-      </section>
-
+     
       <div class="container">
         <div class="cta-concept">
           <div class="cta-text-box">
-            <h2 class="heading-secondary">～経営理念～</h2>
+            <h2 class="heading-secondary">～代表者挨拶～</h2>
             <p class="cta-text">
-                素晴らしいお医者様は言葉より行動で示します。私たちもその精神に従い、多くを語るのではなく、成果で証明します。</br> 私たちの使命はシンプルであり、それが全社員が共有する理念です：貴医院の未来を共に築き、患者様が笑顔でいられるよう貢献すること。</p>
               
-                <p class="cta-text">この使命のため、ビジネス戦略から運用効率、最先端の技術導入まで、多角的に貴医院の成長をサポートします。深い専門性と共感力で、貴医院と患者様双方のニーズに対応する個別のソリューションを開発します。</p>
 
-                <p class="cta-text">品質の向上、コスト効率の最適化、患者様の満足度向上。これらを目指して、誠実かつ透明に効果的なコンサルティングを提供します。</p>
+              <p class="cta-text">私は神奈川県緑区に生まれ育ちました。私の父は自営業の運転手として長年にわたり努力しておりました。
+                父の勤勉さと信念は私に深く影響を与え、日々の労働が人生にどれほどの価値をもたらすかを理解させてくれました。</p>
+              <p class="cta-text">しかし、ある日、年齢を理由に働けなくなる多くの人々の存在を知り、この問題に対する解決策を見つける必要性を感じるようになりました。
+                そういった背景から、末永く働ける環境を作りたいとの思いで会社を設立することを決意しました。Glanzはドイツ語で輝きという意味です。
+                働く事により人生に輝きを与えます。</p>
+              
+              <p class="cta-text">有限会社グランツでは、定年退職者の開業アドバイス、資金調達相談、共同運営などまでを事業として展開しており、
+                まだまだ働ける人と様々な会社を私自身興してきたいい経験、悪い経験をもとに最適な経営アドバイスをさせて頂いてます。
+                弊社の主力事業の1つであるリサイクル事業パソコン再生品販売、業務用車両の販売・レンタルはこのような活動を通じて生まれたビジネスです。</p>
 
-                <p class="cta-text">貴医院の成功が私たちの成功。この信念のもと、共に優れた未来を築いて参ります。<p>
+                <p class="cta-text">私たちは有限会社グランツとして、高齢者が活き活きと生活できる環境を創造し、高齢者の総活躍社会を実現させることを目指しております。
+                  そして、私たちが育った日本を、「世界に誇れる高齢者大国」にすることを目指します。</p>
+                <p class="cta-text"> 私たちは、末永く働き続けたいと願う方々のために、引きこもり支援及び定年退職後の再就職アドバイスを無料で提供しております。
+                  私たちと一緒に、新しい働き方と高齢者の活躍を支える社会を築きましょう。</p>
+                  <p class="cta-text"> 中小企業経営アドバイザー 代表取締役 田口 孝一</p>
             </p>
           </div>
         </div>
@@ -331,92 +251,16 @@
     </main>
 
     <footer class="footer">
-      <div class="container grid grid--footer">
-          <!-- <div class="logo-col">
-            <a href="#" class="footer-logo">
-              <img class="logo" alt="Omnifood logo" src="img/clinic-glanz.png" />
-            </a>
+      <div class="container">
 
-            <ul class="social-links">
-              <li>
-                <a class="footer-link" href="#"
-                  ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
-                ></a>
-              </li>
-              <li>
-                <a class="footer-link" href="#"
-                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
-                ></a>
-              </li>
-              <li>
-                <a class="footer-link" href="#"
-                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
-                ></a>
-              </li>
-            </ul>
-
-            <p class="copyright">
-              Copyright &copy; <span class="year">2023</span> 
-              グランツホールディングス合同会社
-              All rights reserved.
-            </p>
-          </div> -->
-
-        <div class="address-col">
-          <p class="footer-heading">所在地</p>
-          <address class="contacts">
-            <p class="address">
-
-              ◾️本社</br>
-                〒104-0061</br>　東京都中央区銀座1-22-11</br>　大竹ビジデンス2階</br>
-
-              ◾️大阪営業所 </br>
-              〒541-0054</br>　大阪府大阪市中央区南本町</br>　2-3-12 ＥＤＧＥ本町3階
-            </p>
-       
-          </address>
-        </div>
-
-        <div class="address-col">
-          <p class="footer-heading">電話番号</p>
-          <address class="contacts">
-
-            <p>
-              <a class="footer-link" >◾️電話番号（本社）: </br>
-                03-4360-3062
-                </a><br />
-                <a class="footer-link" >◾️電話番号（大阪）: </br>
-                  06-7878-6160
-                  </a><br />
-
-    
-            </p>
-          </address>
-        </div>
-
-
-        <div class="address-col">
-          <p class="footer-heading">メール先</p>
-          <address class="contacts">
-      
-
-              <a class="footer-link" href="matsumoto@glanz.tokyo"
-                >matsumoto@glanz.tokyo</a
-              >
-            </p>
-          </address>
-        </div>
-        <div class="address-col">
-          <p class="footer-heading">会社概要</p>
-          <address class="contacts">
-      
-
-              <a class="footer-link" href="https://glanz.tokyo/"
-                >グランツホールディングス</br>合同会社(HPへ移動)</a
-              >
-            </p>
-          </address>
-        </div>
+        <p class="cta-text"></p>
+        当サイトは、以下のとおり個人情報保護方針を定め、その履行につとめてまいります。
+個人情報を集めるときには、お客様等に対し、利用する目的を明確にし、その目的以外にはその情報は使用いたしません。
+個人情報は漏えいを防止するため、安全に管理いたします。
+個人情報を利用する際は、利用目的の範囲内で適切に行い、法令で認められている場合を除いて、ご本人の同意を取らないで第三者に提供するようなことはいたしません。
+個人情報に関して本人から情報の開示、訂正、削除、利用停止等を求められたとき、速やかに対応いたします。また、個人情報を正確かつ最新の状態に保つよう努めます。
+当サイトは、Googleのアクセス解析ツール「Googleアナリティクス」を利用しています。Googleアナリティクスはトラフィックデータ収集のためCookieを使用し、データは匿名で収集されています。したがって個人を特定しておりません。
+その機能はCookieを無効にすると収集を拒否できます。お使いのブラウザの設定をご確認ください。この規約に関して、詳しくはGoogle アナリティクス利用規約からご覧ください。
       </div>
     </footer>
   </body>
