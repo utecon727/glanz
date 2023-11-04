@@ -14,9 +14,9 @@ console.log(h1);
 
 ///////////////////////////////////////////////////////////
 // Set current year
-const yearEl = document.querySelector(".year"); // add class in HTML so to select it in JS
-const currentYear = new Date().getFullYear(); // get current year; new Date(): current date
-yearEl.textContent = currentYear;
+// const yearEl = document.querySelector(".year"); // add class in HTML so to select it in JS
+// const currentYear = new Date().getFullYear(); // get current year; new Date(): current date
+// yearEl.textContent = currentYear;
 
 ///////////////////////////////////////////////////////////
 // Make mobile navigation work
